@@ -32,6 +32,11 @@
     width: 50%;
   }
 
+  div.a {
+    text-align: justify; /* For Edge */
+    -moz-text-align-last: left; /* For Firefox prior 58.0 */
+    text-align-last: left;
+  }
   
 
   /* li{
